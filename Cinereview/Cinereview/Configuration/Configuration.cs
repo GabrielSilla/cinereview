@@ -13,7 +13,7 @@ namespace Cinereview.Configuration
         public Configuration()
         {
             ConnectionString = Environment.GetEnvironmentVariable("CINEREVIEW_CS");
-            DatabaseName = Environment.GetEnvironmentVariable("DATABASE_NAME");
+            DatabaseName = Environment.GetEnvironmentVariable("CINEREVIEW_NAME");
         }
 
         public String GetConnectionString()
