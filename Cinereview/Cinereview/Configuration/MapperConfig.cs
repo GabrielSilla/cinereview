@@ -14,6 +14,9 @@ namespace Cinereview.Configuration
         {
             CreateMap<User, UserDTO>();
             CreateMap<UserDTO, User>();
-        }
+
+            CreateMap<Movie, MovieDTO>();
+            CreateMap<MovieDTO, Movie>();
+        }        
     }
 }

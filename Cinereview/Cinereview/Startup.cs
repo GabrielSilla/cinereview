@@ -54,12 +54,14 @@ namespace Cinereview
             #region [SERVICES]
 
             services.AddScoped<UserService>();
+            services.AddScoped<MovieService>();
 
             #endregion
 
             #region [REPOSITORIES]
 
             services.AddScoped<UserRepository>();
+            services.AddScoped<MovieRepository>();
 
             #endregion
         }
